@@ -227,6 +227,8 @@ body{
     }
     footer{
         width: 500px;
+        text-align: center;
+        padding-left: 120px;
     }
     html{
         width: 500px
