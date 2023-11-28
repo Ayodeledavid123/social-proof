@@ -160,8 +160,8 @@ body{
     #main{
         display: flex;
         flex-direction: column;
-        margin-left: 90px;
-        width: 450px
+        margin-left: 120px;
+        width: 500px
     }
     #main .stats{
         width: 360px;
@@ -183,7 +183,7 @@ body{
     }
     #buyers{
         flex-direction: column;
-        width: 450px;
+        width: 500px;
         margin-left: 90px;
     }
     #buyers .buyer1{
@@ -223,12 +223,12 @@ body{
         background-repeat: no-repeat;
         padding: 10px;
         box-sizing: border-box;
-        width: 350px;
+        width: 450px;
     }
     footer{
-        width: 350px;
+        width: 500px;
     }
     html{
-        width: 360px
+        width: 500px
     }
 }
