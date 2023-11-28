@@ -216,5 +216,6 @@ body{
         background-position: center;
         background-size: cover;
         padding: 10px;
+        box-sizing: border-box;
     }
 }
