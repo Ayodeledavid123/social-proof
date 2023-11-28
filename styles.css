@@ -1,0 +1,220 @@
+
+body{
+    background-image: url(/bg-pattern-top-desktop.svg), url(/bg-pattern-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 25px;
+    font-family: League Spartan;
+}
+#main{
+    display: flex;
+    justify-content: space-around;
+}
+#main .stats{
+    width: 694px;
+    padding: 0px 150px 0px 0px;
+}
+#main .reviews{
+    width: 694px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+    
+}
+.stats p{
+    padding-right: 50px;
+    color: hsl(303, 10%, 53%);
+}
+.stats h1{
+    padding-right: 280px;
+    color: hsl(300, 43%, 22%);
+    font-weight: 1500;
+    font-size:2.3rem;
+}
+.reviews .review1{
+    display: flex;
+    align-items: center;
+    background: hsl(300, 15%, 81%);
+    border-radius: 5px;
+    width: 330px;
+    margin-bottom: 15px;
+}
+.star-rating{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+.reviews .review2{
+    display: flex;
+    align-items: center;
+    background: hsl(300, 15%, 81%);
+    border-radius: 5px;
+    margin-left: 30px;
+    margin-bottom: 15px;
+    width: 330px;
+}
+.reviews .review3{
+    display: flex;
+    align-items: center;
+    background: hsl(300, 15%, 81%);
+    border-radius: 5px;
+    margin-left: 60px;
+    width: 330px;
+}
+.review1 p{
+    color: hsl(300, 43%, 22%);
+}
+.review2 p{
+    color: hsl(300, 43%, 22%);
+}
+.review3 p{
+    color: hsl(300, 43%, 22%);
+}
+#buyers{
+    margin-top: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+.buyer1 img{
+    border-radius: 50px;
+    object-fit: cover;
+}
+.buyer2 img{
+    border-radius: 50px;
+    object-fit: cover;
+}
+.buyer3 img{
+    border-radius: 50px;
+    object-fit: cover;
+}
+.buyer-info{
+    display: flex;
+    align-items: center;
+    gap: 1.0rem;
+    margin-bottom: 1.2em;
+}
+.text .name{
+    color: white;
+    width: 7.667rem;
+    font-size: 1.3rem;
+    margin-bottom: .2em;
+}
+.text .status{
+    color: hsl(333, 80%, 67%);
+    font-size: larger;
+}
+
+
+.buyer1 .comment{
+   color: white;
+   font-size: 1.1rem;
+   line-height: 1.5rem;
+}
+#buyers .buyer1{
+    width: 350px;
+    height: 220px;
+    background: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 15px;
+}
+#buyers .buyer2{
+    width: 350px;
+    height: 220px;
+    background: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 60px;
+}
+#buyers .buyer3{
+    width: 350px;
+    height: 220px;
+    background: hsl(300, 43%, 22%);
+    border-radius: 10px;
+    padding: 15px;
+    margin-top: 120px;
+}
+.buyer2 .comment{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+ }
+ .buyer3 .comment{
+    color: white;
+    font-size: 1.1rem;
+    line-height: 1.5rem;
+ }
+ footer{
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+ }
+ a{
+    text-decoration: none;
+    color:  hsl(300, 43%, 22%);
+ }
+ @media (min-width: 360px) and (max-width: 675px){
+    #main{
+        display: flex;
+        flex-direction: column;
+        margin-left: 75px;
+    }
+    .stats h1{
+        width: 20rem;
+    }
+    .stats p{
+        width: 20rem;
+    }
+    .reviews .review2{
+    margin-left: 0px;
+    }
+    .reviews .review3{
+    margin-left: 0px;
+    }
+    #buyers{
+        flex-direction: column;
+    
+        
+    }
+    #buyers .buyer1{
+        width: 300px;
+        height: 250px
+    }
+    #buyers .buyer2{
+        width: 300px;
+        height: 250px;
+        margin-top: 10px;
+    }
+    #buyers .buyer3{
+        width: 300px;
+        height: 250px;
+        margin-top: 10px;
+    }
+    .reviews .review1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+    }
+    .reviews .review2{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 5px;
+    } 
+    .reviews .review3{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding-top: 5px;
+    }
+    body{
+        background-image: url(/bg-pattern-top-mobile.svg), url(/bg-pattern-bottom-mobile.svg);
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        padding: 10px;
+    }
+}
