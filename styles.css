@@ -166,7 +166,7 @@ body{
     #main .stats{
         width: 360px;
     }
-    main .reviews{
+    #main .reviews{
         width: 360px;
     }
     .stats h1{
@@ -223,9 +223,12 @@ body{
         background-repeat: no-repeat;
         padding: 10px;
         box-sizing: border-box;
-        width: 700px;
+        width: 350px;
     }
     footer{
         width: 350px;
+    }
+    html{
+        width: 360px
     }
 }
