@@ -155,7 +155,7 @@ body{
     text-decoration: none;
     color:  hsl(300, 43%, 22%);
  }
- @media(max-width: 675px){
+ @media(max-width: 600px){
     #main{
         display: flex;
         flex-direction: column;
