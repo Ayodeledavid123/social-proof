@@ -161,12 +161,13 @@ body{
         display: flex;
         flex-direction: column;
         margin-left: 65px;
+        width: 350px
     }
     #main .stats{
-        width: 100%;
+        width: 360px;
     }
     main .reviews{
-        width: 100%;
+        width: 360px;
     }
     .stats h1{
         width: 20rem;
@@ -182,7 +183,7 @@ body{
     }
     #buyers{
         flex-direction: column;
-    
+        width: 350px;
         
     }
     #buyers .buyer1{
@@ -220,7 +221,11 @@ body{
     body{
         background-image: url(/bg-pattern-top-mobile.svg), url(/bg-pattern-bottom-mobile.svg);
         background-repeat: no-repeat;
+        padding: 10px;
         box-sizing: border-box;
-        
+        width: 700px;
+    }
+    footer{
+        width: 350px;
     }
 }
