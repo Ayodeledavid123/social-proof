@@ -7,6 +7,7 @@ body{
     padding: 25px;
     margin: 0px;
     font-family: League Spartan;
+    min-height: 100%;
 }
 #main{
     display: flex;
@@ -151,6 +152,7 @@ body{
     display: flex;
     justify-content: center;
     font-weight: bold;
+    overflow: hidden;
  }
  a{
     text-decoration: none;
@@ -229,8 +231,10 @@ body{
         width: 500px;
         text-align: center;
         padding-left: 120px;
+        overflow: hidden;
     }
     html{
-        width: 500px
+        min-height: 100%;
     }
+    
 }
