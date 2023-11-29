@@ -8,6 +8,7 @@ body{
     margin: 0px;
     font-family: League Spartan;
     min-height: 100%;
+    
 }
 #main{
     display: flex;
@@ -226,12 +227,13 @@ body{
         padding: 10px;
         box-sizing: border-box;
         width: 450px;
+        overflow: hidden;
     }
     footer{
         width: 500px;
         text-align: center;
         padding-left: 120px;
-        overflow: hidden;
+        
     }
     html{
         min-height: 100%;
